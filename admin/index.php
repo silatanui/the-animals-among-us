@@ -4,9 +4,46 @@ $adminPageTitle = 'Dashboard';
 $adminActive = 'dashboard';
 require dirname(__DIR__) . '/includes/admin_header.php';
 
-$stats = admin_dashboard_stats();
+$dashboardError = null;
+try {
+    $stats = admin_dashboard_stats();
+} catch (Throwable $e) {
+    $dashboardError = $e->getMessage();
+    $stats = [
+        'counts' => [
+            'reports' => 0,
+            'reports_new' => 0,
+            'reports_urgent' => 0,
+            'contacts' => 0,
+            'contacts_new' => 0,
+            'subscribers' => 0,
+            'stories' => 0,
+            'stories_pending' => 0,
+            'stories_published' => 0,
+        ],
+        'charts' => [
+            'reports_by_animal' => [],
+            'reports_by_county' => [],
+            'stories_by_category' => [],
+            'contacts_by_category' => [],
+            'report_trend' => [],
+            'subscriber_trend' => [],
+        ],
+        'map_points' => [],
+        'recent_reports' => [],
+        'recent_stories' => [],
+    ];
+}
 $c = $stats['counts'];
 ?>
+
+<?php if ($dashboardError !== null): ?>
+  <div class="admin-flash admin-flash--error" role="alert">
+    <strong>Database not ready.</strong>
+    <?= e($dashboardError) ?>
+    <br>Check <code>includes/config.local.php</code>, confirm tables were imported from <code>sql/schema.cpanel.sql</code>, then open <a href="<?= e(url('health.php')) ?>">health.php</a>.
+  </div>
+<?php endif; ?>
 
 <section class="admin-hero">
   <div>

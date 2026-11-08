@@ -12,26 +12,33 @@ define('SITE_NAME', 'The Animals Among Us');
 define('SITE_TAGLINE', 'Care begins where we live.');
 define('SITE_SUPPORTING', 'Respect the animals who live and work beside us.');
 define('SITE_PITCH', 'A portfolio project speaking up for the domesticated and working animals we live beside every day.');
-define('SITE_EMAIL', 'hello@theanimalsamongus.org');
 define('ROOT_PATH', dirname(__DIR__) . DIRECTORY_SEPARATOR);
 
-// MySQL (XAMPP defaults). Forms write here: reports, contact, newsletter, stories.
-define('DB_HOST', '127.0.0.1');
-define('DB_PORT', 3306);
-define('DB_NAME', 'animals_among_us');
-define('DB_USER', 'root');
-define('DB_PASS', '');
-define('DB_CHARSET', 'utf8mb4');
+// Local/XAMPP defaults. On cPanel, copy config.local.example.php → config.local.php
+$local = [];
+$localConfigPath = __DIR__ . '/config.local.php';
+if (is_file($localConfigPath)) {
+    $loaded = include $localConfigPath;
+    if (is_array($loaded)) {
+        $local = $loaded;
+    }
+}
 
-// Portfolio admin login (change before any real deployment)
-define('ADMIN_USERNAME', 'admin');
-define('ADMIN_PASSWORD', 'animals2026');
+define('SITE_EMAIL', (string) ($local['SITE_EMAIL'] ?? 'hello@theanimalsamongus.org'));
+define('DB_HOST', (string) ($local['DB_HOST'] ?? '127.0.0.1'));
+define('DB_PORT', (int) ($local['DB_PORT'] ?? 3306));
+define('DB_NAME', (string) ($local['DB_NAME'] ?? 'animals_among_us'));
+define('DB_USER', (string) ($local['DB_USER'] ?? 'root'));
+define('DB_PASS', (string) ($local['DB_PASS'] ?? ''));
+define('DB_CHARSET', (string) ($local['DB_CHARSET'] ?? 'utf8mb4'));
+define('ADMIN_USERNAME', (string) ($local['ADMIN_USERNAME'] ?? 'admin'));
+define('ADMIN_PASSWORD', (string) ($local['ADMIN_PASSWORD'] ?? 'animals2026'));
 
 // Public URL base for this project folder (works from root or subfolders)
 $docRoot = realpath($_SERVER['DOCUMENT_ROOT'] ?? '') ?: '';
 $projectRoot = realpath(ROOT_PATH) ?: ROOT_PATH;
 $relative = '';
-if ($docRoot && str_starts_with($projectRoot, $docRoot)) {
+if ($docRoot !== '' && strpos($projectRoot, $docRoot) === 0) {
     $relative = str_replace('\\', '/', substr($projectRoot, strlen($docRoot)));
 }
 define('BASE_URL', rtrim(str_replace(' ', '%20', $relative), '/') . '/');
