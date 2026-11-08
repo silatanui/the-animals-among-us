@@ -4,6 +4,11 @@ Thumbs.db
 *.log
 mysql-start-*.txt
 
+# Hosting secrets (copy from config.local.example.php)
+includes/config.local.php
+.env
+.env.*
+
 # Form submissions and uploads (keep folder guards)
 data/**/*.json
 data/uploads/**
