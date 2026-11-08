@@ -65,7 +65,11 @@
 
     <div class="site-footer__bottom">
       <div class="container site-footer__bottom-inner">
-        <p>&copy; <?= date('Y') ?> <?= e(SITE_NAME) ?>. <?= e(t('footer_credit')) ?></p>
+        <p>
+          &copy; <?= date('Y') ?> <?= e(SITE_NAME) ?>. <?= e(t('footer_credit')) ?>
+          · <a href="<?= e(url('admin/login.php?demo=1')) ?>">Open demo admin</a>
+          <span class="footer-admin-hint">(no password needed for this portfolio)</span>
+        </p>
         <p><?= e(t('supporting')) ?></p>
       </div>
     </div>

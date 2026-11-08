@@ -410,6 +410,24 @@ p {
  color: var(--charcoal);
 }
 
+.btn--admin-demo {
+ background: var(--green-deep);
+ color: var(--white);
+ padding: 0.55rem 0.95rem;
+ font-size: 0.9rem;
+ border: 0;
+}
+
+.btn--admin-demo:hover {
+ background: var(--green);
+ color: var(--white);
+}
+
+.footer-admin-hint {
+ color: rgba(255, 255, 255, 0.62);
+ font-size: 0.9em;
+}
+
 .btn--ghost {
  background: rgba(255, 255, 255, 0.12);
  color: var(--white);

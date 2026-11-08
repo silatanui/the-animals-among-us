@@ -66,6 +66,7 @@ $lang = current_lang();
           >SW</a>
         </div>
         <a class="btn btn--report" href="<?= e(url('report.php')) ?>"><?= e(t('report_concern')) ?></a>
+        <a class="btn btn--admin-demo" href="<?= e(url('admin/login.php?demo=1')) ?>">Demo admin</a>
         <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="<?= e(t('open_menu')) ?>">
           <span></span><span></span><span></span>
         </button>

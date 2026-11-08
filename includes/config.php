@@ -23,6 +23,10 @@ define('DB_USER', 'root');
 define('DB_PASS', '');
 define('DB_CHARSET', 'utf8mb4');
 
+// Portfolio admin login (change before any real deployment)
+define('ADMIN_USERNAME', 'admin');
+define('ADMIN_PASSWORD', 'animals2026');
+
 // Public URL base for this project folder (works from root or subfolders)
 $docRoot = realpath($_SERVER['DOCUMENT_ROOT'] ?? '') ?: '';
 $projectRoot = realpath(ROOT_PATH) ?: ROOT_PATH;
@@ -35,6 +39,7 @@ define('ASSET_URL', BASE_URL . 'assets/');
 
 require_once __DIR__ . '/i18n.php';
 require_once __DIR__ . '/db.php';
+require_once __DIR__ . '/kenya_geo.php';
 
 $navItems = [
     ['label_key' => 'nav_home', 'href' => 'index.php', 'key' => 'home'],
