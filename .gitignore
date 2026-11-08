@@ -1,0 +1,17 @@
+# Local / runtime
+.DS_Store
+Thumbs.db
+*.log
+mysql-start-*.txt
+
+# Form submissions and uploads (keep folder guards)
+data/**/*.json
+data/uploads/**
+!data/.htaccess
+!data/index.php
+
+# Editor / tooling
+.idea/
+.vscode/
+*.swp
+*.tmp

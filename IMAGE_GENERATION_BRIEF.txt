@@ -1,0 +1,633 @@
+================================================================================
+THE ANIMALS AMONG US | IMAGE GENERATION BRIEF
+================================================================================
+Created: 8 November 2026
+Purpose: Spec sheet for photos / AI-generated images to replace website
+ skeleton placeholders.
+
+GLOBAL STYLE RULES (apply to every image unless noted)
+--------------------------------------------------------------------------------
+- Brand: The Animals Among Us
+- Tone: calm, documentary, respectful, hopeful | never sensational
+- Context: Kenya-first / East Africa everyday life (rural and peri-urban)
+- Subjects: domesticated and working animals (donkeys, cattle, oxen, goats,
+ sheep, poultry, dogs, cats) and the people who care for them
+- DO show: healthy interaction, water, shade, suitable equipment, rest, care
+- DO NOT show: graphic injuries, blood, abuse, confrontation, humiliation,
+ stereotypes, or staged “rescue drama”
+- Prefer natural light; soft morning / golden hour where possible
+- People: diverse ages and genders; obtain consent for identifiable faces
+- File format preference: JPG (photos) or PNG (logos); web-optimised copies later
+- Colour feel: greens, earth tones; avoid purple neon / oversaturated filters
+
+NAMING CONVENTION
+--------------------------------------------------------------------------------
+Suggested filename pattern:
+ tau-[page]-[slot]-[WxH].jpg
+
+Example:
+ tau-home-hero-1920x1080.jpg
+
+================================================================================
+1. HOME PAGE (index.php)
+================================================================================
+
+--------------------------------------------------------------------------------
+ID: HOME-01
+Suggested name: tau-home-hero-1920x1080.jpg
+Page / section: Home | full-bleed hero background
+Dimensions: 1920 × 1080 px
+Aspect ratio: 16:9
+Orientation: Landscape
+Type: Photograph
+Description: Full-bleed documentary photo of a donkey pulling a cart on a
+ Kenyan roadside at golden hour, with a calm owner walking
+ beside it. Soft natural light, rural/peri-urban context,
+ respectful and hopeful tone. No injury imagery.
+Notes: Dark overlay will sit on top for white headline text.
+ Keep subject slightly right or centre so left text remains
+ readable.
+--------------------------------------------------------------------------------
+ID: HOME-02
+Suggested name: tau-home-overlooked-neighbours-960x720.jpg
+Page / section: Home | “Compassion should not stop at the reserve gate”
+Dimensions: 960 × 720 px
+Aspect ratio: 4:3
+Orientation: Landscape
+Type: Photograph
+Description: Healthy cattle near a homestead with shade and a water trough
+ visible. Calm human-animal presence. Documentary style;
+ rural Kenya context.
+--------------------------------------------------------------------------------
+ID: HOME-03
+Suggested name: tau-home-story-water-640x400.jpg
+Page / section: Home | Latest community stories (card 1)
+Dimensions: 640 × 400 px
+Aspect ratio: 16:10
+Orientation: Landscape
+Type: Photograph
+Description: Newly built or cleaned water point used by working donkeys.
+ People and animals sharing a calm moment.
+--------------------------------------------------------------------------------
+ID: HOME-04
+Suggested name: tau-home-story-harness-640x400.jpg
+Page / section: Home | Latest community stories (card 2)
+Dimensions: 640 × 400 px
+Aspect ratio: 16:10
+Orientation: Landscape
+Type: Photograph
+Description: Close, respectful photo of a properly fitted donkey harness
+ with padded contact points. Owner adjusting straps carefully.
+--------------------------------------------------------------------------------
+ID: HOME-05
+Suggested name: tau-home-story-school-640x400.jpg
+Page / section: Home | Latest community stories (card 3)
+Dimensions: 640 × 400 px
+Aspect ratio: 16:10
+Orientation: Landscape
+Type: Photograph
+Description: Youth group outdoors with illustrated care posters about food,
+ water and rest. Bright, hopeful community atmosphere.
+--------------------------------------------------------------------------------
+ID: HOME-06
+Suggested name: tau-home-guide-donkeys-480x320.jpg
+Page / section: Home | Learn by animal (Donkeys & horses)
+Dimensions: 480 × 320 px
+Aspect ratio: 3:2
+Orientation: Landscape
+Type: Photograph
+Description: Working donkey resting in shade with soft ground underfoot.
+ Calm documentary portrait.
+--------------------------------------------------------------------------------
+ID: HOME-07
+Suggested name: tau-home-guide-cattle-480x320.jpg
+Page / section: Home | Learn by animal (Cattle & oxen)
+Dimensions: 480 × 320 px
+Aspect ratio: 3:2
+Orientation: Landscape
+Type: Photograph
+Description: Oxen or dairy cattle with access to shade and water. Healthy
+ coats, unforced posture.
+--------------------------------------------------------------------------------
+ID: HOME-08
+Suggested name: tau-home-guide-goats-sheep-480x320.jpg
+Page / section: Home | Learn by animal (Goats & sheep)
+Dimensions: 480 × 320 px
+Aspect ratio: 3:2
+Orientation: Landscape
+Type: Photograph
+Description: Small flock near suitable housing with clean resting area.
+ Natural light, rural setting.
+--------------------------------------------------------------------------------
+ID: HOME-09
+Suggested name: tau-home-guide-poultry-480x320.jpg
+Page / section: Home | Learn by animal (Poultry)
+Dimensions: 480 × 320 px
+Aspect ratio: 3:2
+Orientation: Landscape
+Type: Photograph
+Description: Well-ventilated poultry housing with clean waterers and dry
+ bedding visible.
+--------------------------------------------------------------------------------
+ID: HOME-10
+Suggested name: tau-home-partner-logo-1-280x120.png
+Page / section: Home | Partner strip slot 1
+Dimensions: 280 × 120 px
+Aspect ratio: 7:3
+Orientation: Landscape
+Type: Logo (PNG, transparent or white background preferred)
+Description: Horizontal logo of a verified animal-welfare organisation.
+Notes: Do not publish until written partnership consent is obtained.
+--------------------------------------------------------------------------------
+ID: HOME-11
+Suggested name: tau-home-partner-logo-2-280x120.png
+Page / section: Home | Partner strip slot 2
+Dimensions: 280 × 120 px
+Aspect ratio: 7:3
+Orientation: Landscape
+Type: Logo
+Description: Veterinary / animal-health provider logo on white or
+ transparent background.
+Notes: Consent required before publishing.
+--------------------------------------------------------------------------------
+ID: HOME-12
+Suggested name: tau-home-partner-logo-3-280x120.png
+Page / section: Home | Partner strip slot 3
+Dimensions: 280 × 120 px
+Aspect ratio: 7:3
+Orientation: Landscape
+Type: Logo
+Description: Community initiative or NGO logo serving working animals
+ in Kenya.
+Notes: Consent required before publishing.
+--------------------------------------------------------------------------------
+ID: HOME-13
+Suggested name: tau-home-partner-logo-4-280x120.png
+Page / section: Home | Partner strip slot 4
+Dimensions: 280 × 120 px
+Aspect ratio: 7:3
+Orientation: Landscape
+Type: Logo
+Description: Training or outreach partner logo.
+Notes: Consent required before publishing.
+
+================================================================================
+2. ABOUT PAGE (about.php)
+================================================================================
+
+--------------------------------------------------------------------------------
+ID: ABOUT-01
+Suggested name: tau-about-founding-context-900x700.jpg
+Page / section: About | Our story
+Dimensions: 900 × 700 px
+Aspect ratio: ~9:7
+Orientation: Landscape
+Type: Photograph
+Description: Respectful documentary image of a working donkey and cart on
+ a dusty road at dusk. Focus on dignity and everyday labour,
+ not distress. Soft light, Kenya/East Africa context.
+--------------------------------------------------------------------------------
+ID: ABOUT-02
+Suggested name: tau-about-collaboration-900x650.jpg
+Page / section: About | Our commitment
+Dimensions: 900 × 650 px
+Aspect ratio: ~9:6.5
+Orientation: Landscape
+Type: Photograph
+Description: Small mixed group (owners, vet, community facilitator)
+ reviewing a printed care checklist outdoors. Collaborative,
+ respectful, non-staged feel.
+
+================================================================================
+3. WHY IT MATTERS (why-it-matters.php)
+================================================================================
+
+--------------------------------------------------------------------------------
+ID: WHY-01
+Suggested name: tau-why-environment-1000x750.jpg
+Page / section: Why it matters | Animals experience their environment
+Dimensions: 1000 × 750 px
+Aspect ratio: 4:3
+Orientation: Landscape
+Type: Photograph
+Description: Cow and calf in shaded pasture with clean water nearby.
+ Convey comfort and attentive care rather than novelty.
+--------------------------------------------------------------------------------
+ID: WHY-02
+Suggested name: tau-why-manageable-load-1000x750.jpg
+Page / section: Why it matters | Working animals need limits
+Dimensions: 1000 × 750 px
+Aspect ratio: 4:3
+Orientation: Landscape
+Type: Photograph
+Description: Donkey with a clearly manageable load and well-fitted
+ equipment, resting briefly beside a cart. Emphasise limits,
+ rest and humane work.
+--------------------------------------------------------------------------------
+ID: WHY-03
+Suggested name: tau-why-panorama-1400x520.jpg
+Page / section: Why it matters | Community panorama banner
+Dimensions: 1400 × 520 px
+Aspect ratio: ~21:8
+Orientation: Wide landscape / banner
+Type: Photograph (single image preferred over collage)
+Description: Calm documentary panorama of mixed everyday scenes | 
+ roadside donkey, homestead cattle, poultry near housing | 
+ without stereotypes.
+
+================================================================================
+4. CARE GUIDES INDEX (care-guides.php)
+================================================================================
+
+--------------------------------------------------------------------------------
+ID: GUIDES-01
+Suggested name: tau-guides-cover-donkeys-640x420.jpg
+Page / section: Care guides index | Donkeys & horses card
+Dimensions: 640 × 420 px
+Aspect ratio: ~16:10
+Orientation: Landscape
+Type: Photograph
+Description: Portrait of a healthy working donkey in soft morning light,
+ resting near shade with water nearby.
+--------------------------------------------------------------------------------
+ID: GUIDES-02
+Suggested name: tau-guides-cover-cattle-640x420.jpg
+Page / section: Care guides index | Cattle & oxen card
+Dimensions: 640 × 420 px
+Aspect ratio: ~16:10
+Orientation: Landscape
+Type: Photograph
+Description: Cattle at a water trough with shade structure visible.
+ Clean, calm farm setting.
+--------------------------------------------------------------------------------
+ID: GUIDES-03
+Suggested name: tau-guides-cover-goats-sheep-640x420.jpg
+Page / section: Care guides index | Goats & sheep card
+Dimensions: 640 × 420 px
+Aspect ratio: ~16:10
+Orientation: Landscape
+Type: Photograph
+Description: Goats or sheep near suitable housing with dry resting ground.
+ Natural daylight.
+--------------------------------------------------------------------------------
+ID: GUIDES-04
+Suggested name: tau-guides-cover-poultry-640x420.jpg
+Page / section: Care guides index | Poultry card
+Dimensions: 640 × 420 px
+Aspect ratio: ~16:10
+Orientation: Landscape
+Type: Photograph
+Description: Well-kept poultry house with ventilation and clean
+ feeders/waterers in frame.
+--------------------------------------------------------------------------------
+ID: GUIDES-05
+Suggested name: tau-guides-cover-dogs-cats-640x420.jpg
+Page / section: Care guides index | Dogs & cats card
+Dimensions: 640 × 420 px
+Aspect ratio: ~16:10
+Orientation: Landscape
+Type: Photograph
+Description: Companion dog or cat with a caring guardian in a courtyard
+ setting. Warm, responsible ownership tone.
+--------------------------------------------------------------------------------
+ID: GUIDES-06
+Suggested name: tau-guides-library-overview-960x640.jpg
+Page / section: Care guides index | “What each guide includes”
+Dimensions: 960 × 640 px
+Aspect ratio: 3:2
+Orientation: Landscape
+Type: Photograph / styled still life
+Description: Flat-lay or desk photo of printed checklists, a notebook,
+ and a tablet showing a care guide page | suggesting practical
+ learning tools.
+
+================================================================================
+5. CARE GUIDE DETAIL PAGES
+================================================================================
+
+----- Donkeys (care-guides/donkeys.php) ----------------------------------------
+ID: GUIDE-DONKEY-01
+Suggested name: tau-guide-donkey-hero-800x1000.jpg
+Page / section: Donkey care basics | primary hero
+Dimensions: 800 × 1000 px
+Aspect ratio: 4:5
+Orientation: Portrait
+Type: Photograph
+Description: Healthy working donkey standing calmly beside an owner, soft
+ natural light, properly fitted simple harness visible,
+ no wounds shown.
+
+ID: GUIDE-DONKEY-02
+Suggested name: tau-guide-donkey-detail-800x500.jpg
+Page / section: Donkey care basics | secondary detail
+Dimensions: 800 × 500 px
+Aspect ratio: 8:5
+Orientation: Landscape
+Type: Photograph
+Description: Close view of padded harness contact points and a shaded
+ resting area with dry ground.
+
+----- Cattle (care-guides/cattle.php) ------------------------------------------
+ID: GUIDE-CATTLE-01
+Suggested name: tau-guide-cattle-hero-800x1000.jpg
+Page / section: Cattle care basics | primary hero
+Dimensions: 800 × 1000 px
+Aspect ratio: 4:5
+Orientation: Portrait
+Type: Photograph
+Description: Healthy cattle near a homestead with shade and a water source.
+ Calm herd posture, respectful documentary framing.
+
+ID: GUIDE-CATTLE-02
+Suggested name: tau-guide-cattle-detail-800x500.jpg
+Page / section: Cattle care basics | secondary detail
+Dimensions: 800 × 500 px
+Aspect ratio: 8:5
+Orientation: Landscape
+Type: Photograph
+Description: Water trough and shade structure used by cattle or oxen on a
+ working day.
+
+----- Goats & sheep (care-guides/goats-sheep.php) ------------------------------
+ID: GUIDE-GOATS-01
+Suggested name: tau-guide-goats-sheep-hero-800x1000.jpg
+Page / section: Goats & sheep care basics | primary hero
+Dimensions: 800 × 1000 px
+Aspect ratio: 4:5
+Orientation: Portrait
+Type: Photograph
+Description: Small flock of goats or sheep near clean housing, dry resting
+ ground, natural daylight.
+
+ID: GUIDE-GOATS-02
+Suggested name: tau-guide-goats-sheep-detail-800x500.jpg
+Page / section: Goats & sheep care basics | secondary detail
+Dimensions: 800 × 500 px
+Aspect ratio: 8:5
+Orientation: Landscape
+Type: Photograph
+Description: Suitable small-ruminant housing with ventilation and dry
+ bedding or resting area.
+
+----- Poultry (care-guides/poultry.php) ----------------------------------------
+ID: GUIDE-POULTRY-01
+Suggested name: tau-guide-poultry-hero-800x1000.jpg
+Page / section: Poultry care basics | primary hero
+Dimensions: 800 × 1000 px
+Aspect ratio: 4:5
+Orientation: Portrait
+Type: Photograph
+Description: Chickens in a clean, well-ventilated coop or run with visible
+ waterers and dry litter.
+
+ID: GUIDE-POULTRY-02
+Suggested name: tau-guide-poultry-detail-800x500.jpg
+Page / section: Poultry care basics | secondary detail
+Dimensions: 800 × 500 px
+Aspect ratio: 8:5
+Orientation: Landscape
+Type: Photograph
+Description: Close view of clean feeders, waterers and dry bedding | 
+ illustrating hygiene basics.
+
+----- Dogs & cats (care-guides/dogs-cats.php) ----------------------------------
+ID: GUIDE-COMPANION-01
+Suggested name: tau-guide-dogs-cats-hero-800x1000.jpg
+Page / section: Dogs & cats care basics | primary hero
+Dimensions: 800 × 1000 px
+Aspect ratio: 4:5
+Orientation: Portrait
+Type: Photograph
+Description: Healthy dog or cat with a caring guardian in a home courtyard.
+ Warm, responsible companionship | not a studio shoot.
+
+ID: GUIDE-COMPANION-02
+Suggested name: tau-guide-dogs-cats-detail-800x500.jpg
+Page / section: Dogs & cats care basics | secondary detail
+Dimensions: 800 × 500 px
+Aspect ratio: 8:5
+Orientation: Landscape
+Type: Photograph
+Description: Calm visit at a clinic or community vaccination day
+ (consented). Focus on care, not fear.
+
+================================================================================
+6. COMMUNITY (community.php + story pages + submit)
+================================================================================
+
+--------------------------------------------------------------------------------
+ID: COMM-01
+Suggested name: tau-community-cover-water-640x420.jpg
+Page / section: Community feed | story card: water stop
+Dimensions: 640 × 420 px
+Aspect ratio: ~16:10
+Orientation: Landscape
+Type: Photograph
+Description: Donkeys drinking from a clean water point near a market road.
+ Hopeful, practical care.
+Notes: Can reuse / crop from HOME-03 if composition allows.
+--------------------------------------------------------------------------------
+ID: COMM-02
+Suggested name: tau-community-cover-harness-640x420.jpg
+Page / section: Community feed | story card: harness fit
+Dimensions: 640 × 420 px
+Aspect ratio: ~16:10
+Orientation: Landscape
+Type: Photograph
+Description: Close respectful shot of padded harness straps being adjusted
+ by an owner.
+Notes: Can reuse / crop from HOME-04 if composition allows.
+--------------------------------------------------------------------------------
+ID: COMM-03
+Suggested name: tau-community-cover-youth-640x420.jpg
+Page / section: Community feed | story card: youth project
+Dimensions: 640 × 420 px
+Aspect ratio: ~16:10
+Orientation: Landscape
+Type: Photograph
+Description: Students outdoors with animal-care posters. Bright, educational
+ atmosphere.
+Notes: Can reuse / crop from HOME-05 if composition allows.
+--------------------------------------------------------------------------------
+ID: COMM-04
+Suggested name: tau-community-gathering-900x700.jpg
+Page / section: Community | principles / gathering section
+Dimensions: 900 × 700 px
+Aspect ratio: ~9:7
+Orientation: Landscape
+Type: Photograph
+Description: Small outdoor community conversation about animal care | 
+ mixed ages, respectful tone, Kenya context.
+--------------------------------------------------------------------------------
+ID: COMM-05
+Suggested name: tau-story-water-hero-1200x700.jpg
+Page / section: Story detail | “Clean water changed our mornings”
+Dimensions: 1200 × 700 px
+Aspect ratio: ~12:7
+Orientation: Landscape
+Type: Photograph
+Description: Working donkeys drinking calmly at a clean roadside water
+ point near a market. Morning light, hopeful tone.
+--------------------------------------------------------------------------------
+ID: COMM-06
+Suggested name: tau-story-harness-hero-1200x700.jpg
+Page / section: Story detail | “What a better harness taught us”
+Dimensions: 1200 × 700 px
+Aspect ratio: ~12:7
+Orientation: Landscape
+Type: Photograph
+Description: Owner carefully checking and adjusting a padded donkey harness
+ in daylight. Focus on care and craft, not injury.
+--------------------------------------------------------------------------------
+ID: COMM-07
+Suggested name: tau-story-school-hero-1200x700.jpg
+Page / section: Story detail | “Students map the animals beside us”
+Dimensions: 1200 × 700 px
+Aspect ratio: ~12:7
+Orientation: Landscape
+Type: Photograph
+Description: Students outdoors presenting simple posters about water, food,
+ rest and humane handling. Energetic, age-appropriate, hopeful.
+--------------------------------------------------------------------------------
+ID: COMM-08
+Suggested name: tau-story-submit-banner-1100x420.jpg
+Page / section: Share a story | form banner
+Dimensions: 1100 × 420 px
+Aspect ratio: ~11:4.2
+Orientation: Wide landscape / banner
+Type: Photograph
+Description: Hopeful documentary still of everyday animal care | e.g.
+ filling a water trough at dawn. No graphic content.
+
+================================================================================
+7. TAKE ACTION (take-action.php)
+================================================================================
+
+--------------------------------------------------------------------------------
+ID: ACTION-01
+Suggested name: tau-action-banner-1400x480.jpg
+Page / section: Take action | top banner
+Dimensions: 1400 × 480 px
+Aspect ratio: ~21:7
+Orientation: Wide landscape / banner
+Type: Photograph
+Description: Wide documentary image of people filling water containers for
+ animals or attending a calm outdoor care demo. Inclusive,
+ practical energy.
+
+================================================================================
+8. REPORT A CONCERN (report.php)
+================================================================================
+
+--------------------------------------------------------------------------------
+ID: REPORT-01
+Suggested name: tau-report-pathway-720x900.jpg
+Page / section: Report a concern | side visual
+Dimensions: 720 × 900 px
+Aspect ratio: 4:5
+Orientation: Portrait
+Type: Photograph or calm illustration
+Description: Private, safe reporting pathway | e.g. a person writing notes
+ beside a phone, not confronting anyone. No graphic animal
+ injury imagery.
+
+================================================================================
+9. CONTACT (contact.php)
+================================================================================
+
+--------------------------------------------------------------------------------
+ID: CONTACT-01
+Suggested name: tau-contact-partnership-800x900.jpg
+Page / section: Contact | side visual
+Dimensions: 800 × 900 px
+Aspect ratio: ~8:9
+Orientation: Portrait
+Type: Photograph
+Description: Two people reviewing printed partner materials outdoors, or a
+ quiet workspace with care-guide drafts. Collaborative,
+ professional, warm.
+
+================================================================================
+10. PARTNERS / EVENTS (partners.php)
+================================================================================
+
+--------------------------------------------------------------------------------
+ID: PARTNER-01
+Suggested name: tau-partner-sample-welfare-640x280.png
+Page / section: Partner directory | sample welfare organisation
+Dimensions: 640 × 280 px
+Aspect ratio: ~16:7
+Orientation: Landscape
+Type: Logo or approved cover
+Description: Organisation logo or approved cover image.
+Notes: Placeholder until verification + written consent.
+--------------------------------------------------------------------------------
+ID: PARTNER-02
+Suggested name: tau-partner-sample-vet-640x280.png
+Page / section: Partner directory | sample veterinary / animal-health provider
+Dimensions: 640 × 280 px
+Aspect ratio: ~16:7
+Orientation: Landscape
+Type: Logo or approved cover
+Description: Clinic or animal-health provider branding.
+Notes: Consent required.
+--------------------------------------------------------------------------------
+ID: PARTNER-03
+Suggested name: tau-partner-sample-community-640x280.png
+Page / section: Partner directory | sample community initiative
+Dimensions: 640 × 280 px
+Aspect ratio: ~16:7
+Orientation: Landscape
+Type: Logo or approved cover
+Description: Local training / community initiative branding.
+Notes: Consent required.
+--------------------------------------------------------------------------------
+ID: PARTNER-04
+Suggested name: tau-partners-outreach-event-900x650.jpg
+Page / section: Partners | Events & outreach section
+Dimensions: 900 × 650 px
+Aspect ratio: ~9:6.5
+Orientation: Landscape
+Type: Photograph
+Description: Community training circle or market outreach stall focused on
+ working-animal care. Inclusive and practical.
+
+================================================================================
+11. EXISTING BRAND ASSETS (already in /Logos and /assets/images)
+================================================================================
+These do NOT need generating | already provided:
+
+- Desktop website header.png → site header (desktop)
+- Mobile Website Logo.png → site header (mobile) / favicon source
+- Tablet Display Logo.png → tablet / alternate placements
+- The Animals Among Us Logo.png → primary stacked logo (white background)
+- The Animals Among Us Logo (1).png → alternate full logo
+
+================================================================================
+PRIORITY ORDER FOR GENERATION
+================================================================================
+P1 (launch-critical visuals)
+ HOME-01, HOME-02, WHY-01, WHY-02, ABOUT-01, GUIDE-DONKEY-01, GUIDE-CATTLE-01,
+ ACTION-01, REPORT-01
+
+P2 (content library & community)
+ All GUIDE covers + remaining guide heroes/details, COMM story heroes,
+ GUIDES-06, COMM-04, WHY-03
+
+P3 (partners & logos | only after consent)
+ HOME-10 to HOME-13, PARTNER-01 to PARTNER-03
+
+================================================================================
+DELIVERY CHECKLIST
+================================================================================
+[ ] Correct pixel dimensions (or larger master that can crop cleanly)
+[ ] No graphic injury / abuse imagery
+[ ] Consent cleared for identifiable people (and partner logos)
+[ ] Descriptive alt text drafted from the Description field above
+[ ] Web-compressed export + keep high-res master
+[ ] Filename follows tau-[page]-[slot]-[WxH] pattern
+[ ] Place final web files in: assets/images/content/
+
+================================================================================
+END OF BRIEF
+================================================================================

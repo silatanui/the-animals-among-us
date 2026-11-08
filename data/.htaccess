@@ -1,0 +1,2 @@
+# Block web access to stored form submissions
+Require all denied
